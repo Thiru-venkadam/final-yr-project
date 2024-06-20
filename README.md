@@ -1,2 +1,8 @@
 # final-yr-project
 A single switch module DC-DC converter with focus on voltage stress reduction
+
+Summary:
+
+This project introduces an innovative switched-inductor-capacitor module for non-isolated DC-DC converters tailored for low voltage DC source applications. The module's unique feature is its scalability, enabling the creation of multiple modules to achieve substantial high voltage gain. By strategically minimizing voltage stress on power components, optimizing both efficiency and cost-effectiveness. Unlike conventional DC-DC converters, where diode voltage stress equals the output voltage (Vo), the proposed topology mitigates this stress by making it the difference between Vo and the input voltage (Vi), thereby alleviating the reverse recovery problem associated with diodes. The paper thoroughly analyzes key metrics, including component count, voltage stresses, and gain factor, offering insightful comparisons with analogous existing topologies. A practical demonstration through a scaled-down prototype (200 W, 93% efficiency approximately) substantiates the theoretical framework. The experimental results, covering various duty cycles, provide a comprehensive understanding of the proposed DC-DC converter's performance and characteristics. The experimental results highlight the feasibility and practicality of this innovative approach, particularly in the context of renewable energy systems, where it holds the potential to mitigate power losses, reduce switch stress, manage inrush input currents, and enhance efficiency. 
+
+Also, Simulation files and final hardware setup picture are included in this repo.
